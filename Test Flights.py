@@ -57,6 +57,18 @@ def triangle():
         sendmsg("forward 100")
         sendmsg("cw 120")
 
+#Flip right
+def flipr():
+    sendmsg("up 75")
+    sendmsg("flip r")
+
+
+#Find the battery
+def battery():
+    sendmsg("battery?")
+
+
+
 print("\nKyle VanLandegent")
 print("Program Name: Flight")
 print("Date: 11.17.21")
